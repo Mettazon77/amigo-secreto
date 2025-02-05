@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Loved+by+the+King&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", "Serif";
+}
+body {
+    background-color: cornflowerblue;
+}
+.main-box {
+    color: white;
+    padding: 20px;
+    margin: 50px 0px 0px 30px;
+    display: inline-block;
+
+}
+.top {
+    background-color: rgb(17, 99, 182);
+    width: 1000px;
+    border-bottom-right-radius: 50px;
+}
+.top h1 {
+    font-size: 50px;
+    color: white;
+    margin: 0 0 0 30px;
+}
+.main-box h2 {
+    font-size: 60px;
+    margin-top: 100px;
+}
+.entrada {
+    margin: 30px 0px;
+    border-radius: 10px;
+    width: 585px;
+    height: 40px;
+    border: none;
+}
+.lista {
+    background-color: white;
+    padding: 200px 100px;
+    margin: 30px 30px 30px 200px;
+    display: inline-block;
+    border-radius: 15px;
+}
