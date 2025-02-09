@@ -10,19 +10,29 @@
     <div class="top">
         <h1>¡Elige a tus amigos de forma aleatoria!</h1>
     </div>
-    <div class="main-box">
-        <h2 class="texto" id="asd">¡Añade a tus amigos!</h2>
-        <input id="entradaNombres" class="entrada">
-        <button onclick="verificarEntrada()" class="botonEnviar">Enviar</button>
-    </div>
+    <section class="dentro">
 
-    <div class="box-lista">
-    <h3>Lista de sorteados:</h3>
-    <ul id="lista">
+        <div class="main-box">
+            <h2 class="texto" id="asd">¡Juega!</h2>
+            <input id="entradaNombres" class="entrada" placeholder="¡Añade a tus amigos!" accesskey="Enter">
+            <div class="botonesBox">
+                <button onclick="verificarEntrada()" id="botonEnter" class="botones">Enviar</button>
+                <button onclick="elegirGanador()" class="botones" id="ganador" disabled>¡Elegir!</button>
+            </div>
+        </div>
         
-    </ul>
-
-    </div>
+        <div class="box-lista">
+            <h3>Lista de sorteados</h3>
+            <div class="titulo-lista">
+            </div>
+            <div class="texto-lista">
+                <ul id="lista">
+                    
+                </ul>
+            </div>
+            
+        </div>
+    </section>
     
     <script src="app.js"></script>
 </body>

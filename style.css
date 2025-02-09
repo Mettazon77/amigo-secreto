@@ -6,7 +6,13 @@
     font-family: "Nunito", "Serif";
 }
 body {
-    background-color: cornflowerblue;
+    background-image: url(nubes-fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.dentro {
+    display: flex;
+    gap: 50px;
 }
 .main-box {
     color: white;
@@ -16,7 +22,8 @@ body {
 
 }
 .top {
-    background-color: rgb(17, 99, 182);
+    background-color: 
+    #c5e6fb;
     width: 1000px;
     border-bottom-right-radius: 50px;
 }
@@ -39,13 +46,28 @@ body {
 .box-lista {
     background-color: white;
     padding: 200px 100px;
-    margin: 30px 30px 30px 200px;
+    margin: 80px 30px 100px 200px;
     display: inline-block;
     border-radius: 15px;
 }
-.botonEnviar{
-    width: 60px;
+.botones{
+    width: 70px;
     height: 40px;
     border: none;
     border-radius: 10px;
+}
+.botones:hover {
+    background-color: rgb(17, 99, 182);
+    color: white;
+    cursor: pointer;
+}
+.botonesBox {
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+}
+.titulo-lista {
+    display: flex;
+    
+    background-color: aqua;
 }
